@@ -10,29 +10,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -120,75 +97,27 @@ In order to run this project you need:
 
 command: sudo -u -i prostiges
 
-<!--
-Example command: sudo -u -i prostiges
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
 
-<!--
-Example commands: git clone 
-
-```sh
-  cd my-folder
-  git clone https://github.com/Itswali/vet-clinic.git
-```
---->
 
 ### Install
 
 Install this project with: command: npm install
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
 ### Usage
 
 To run the project, execute the following command: npm start
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command: npm run test.
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
 You can deploy this project using: GITHUB Pages.
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,7 +174,6 @@ I Would like to Thanks Microverse for providing the Project.
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
