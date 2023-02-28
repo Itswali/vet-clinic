@@ -118,6 +118,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+command: sudo -u -i prostiges
+
 <!--
 Example command: sudo -u -i prostiges
 
@@ -128,7 +130,7 @@ Example command: sudo -u -i prostiges
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
 
 <!--
 Example commands: git clone 
@@ -141,7 +143,7 @@ Example commands: git clone
 
 ### Install
 
-Install this project with: 
+Install this project with: command: npm install
 
 <!--
 Example command:
