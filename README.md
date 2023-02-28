@@ -156,7 +156,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: npm start
 
 <!--
 Example command:
@@ -168,7 +168,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: npm run test.
 
 <!--
 Example command:
@@ -180,7 +180,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: GITHUB Pages.
 
 <!--
 Example:
