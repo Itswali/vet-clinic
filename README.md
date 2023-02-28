@@ -10,6 +10,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <a name="readme-top"></a>
 
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -101,6 +102,10 @@ command: sudo -u -i prostiges
 
 Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
 
+### Setup
+
+Clone this repository to your desired folder:
+
 
 ### Install
 
@@ -109,6 +114,12 @@ Install this project with: command: npm install
 ### Usage
 
 To run the project, execute the following command: npm start
+Install this project with:
+
+
+### Usage
+
+To run the project, execute the following command:
 
 ### Run tests
 
@@ -118,6 +129,9 @@ To run tests, run the following command: npm run test.
 ### Deployment
 
 You can deploy this project using: GITHUB Pages.
+### Deployment
+
+You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
