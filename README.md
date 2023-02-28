@@ -103,8 +103,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- N/A.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +119,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 <!--
-Example command:
+Example command: sudo -u -i prostiges
 
 ```sh
  gem install rails
@@ -132,17 +131,17 @@ Example command:
 Clone this repository to your desired folder:
 
 <!--
-Example commands:
+Example commands: git clone 
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Itswali/vet-clinic.git
 ```
 --->
 
 ### Install
 
-Install this project with:
+Install this project with: 
 
 <!--
 Example command:
@@ -236,6 +235,7 @@ If you like this project give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I Would like to Thanks Microverse for providing the Project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
