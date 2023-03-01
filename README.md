@@ -111,12 +111,6 @@ Install this project with: command: npm install
 
 To run the project, execute the following command: npm start
 
-
-### Usage
-
-To run the project, execute the following command:
-
-
 ### Deployment
 
 You can deploy this project using:
