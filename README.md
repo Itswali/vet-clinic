@@ -92,10 +92,39 @@ In order to run this project you need:
 command: sudo -u -i prostiges
 
 command: psql vet_clinic ;
+### Setup
+
+Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
+
+### Setup
 
 
 
 ### Setup
+
+### Install
+
+Install this project with: command: npm install
+
+### Usage
+
+To run the project, execute the following command: npm start
+Install this project with:
+
+
+### Usage
+
+To run the project, execute the following command:
+
+### Run tests
+
+To run tests, run the following command: npm run test.
+
+
+### Deployment
+
+You can deploy this project using: GITHUB Pages.
+### Deployment
 
 Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
 
@@ -175,5 +204,7 @@ I Would like to Thanks Microverse for providing the Project.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
