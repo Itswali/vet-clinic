@@ -13,7 +13,7 @@ SELECT date_of_birth FROM animals
 WHERE name IN ('Agumon', 'Pikachu');
 
 SELECT name, escape_attempts FROM animals
-WHERE weight_kg > 10.5;
+WHERE weight_kg_kg > 10.5;
 
 SELECT * FROM animals
 WHERE neutered = true;
@@ -23,3 +23,18 @@ WHERE name != 'Gabumon';
 
 SELECT * FROM animals
 WHERE weight_kg BETWEEN 10.4 AND 17.3;
+
+--  FOR PART 2 
+
+BEGIN TRANSACTION;
+
+UPDATE animals SET weight = -1 * weight_kg;
+
+SAVEPOINT weight_update;
+
+ROLLBACK TO weight_update;
+
+UPDATE animals SET weight_kg = -1 * weight_kg WHERE weight_kg < 0;
+
+COMMIT;
+
