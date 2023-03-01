@@ -24,8 +24,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -110,14 +108,6 @@ Clone this repository to your desired folder: commands: git clone https://github
 ### Install
 
 Install this project with: command: npm install
-
-### Usage
-
-To run the project, execute the following command: npm start
-
-### Deployment
-
-You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
