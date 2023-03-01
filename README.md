@@ -24,8 +24,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -47,16 +45,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <details>
   <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
 </details>
 
 <details>
   <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
+
 </details>
 
 <details>
@@ -98,14 +91,16 @@ In order to run this project you need:
 
 command: sudo -u -i prostiges
 
+command: psql vet_clinic ;
 ### Setup
 
 Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
 
 ### Setup
 
-Clone this repository to your desired folder:
 
+
+### Setup
 
 ### Install
 
@@ -131,7 +126,12 @@ To run tests, run the following command: npm run test.
 You can deploy this project using: GITHUB Pages.
 ### Deployment
 
-You can deploy this project using:
+Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
+
+
+### Install
+
+Install this project with: command: npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
