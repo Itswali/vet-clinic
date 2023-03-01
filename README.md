@@ -98,6 +98,10 @@ In order to run this project you need:
 
 command: sudo -u -i prostiges
 
+command: psql vet_clinic ;
+
+
+
 ### Setup
 
 Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
