@@ -24,7 +24,17 @@ WHERE name != 'Gabumon';
 SELECT * FROM animals
 WHERE weight_kg BETWEEN 10.4 AND 17.3;
 
+
 --  FOR PART 2 
+
+BEGIN;
+UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
+UPDATE animals SET species = 'pokemon' WHERE species = 'unspecified';
+
+COMMIT;
+
+SELECT * FROM animals;
+
 
 BEGIN TRANSACTION;
 
@@ -50,4 +60,4 @@ SELECT neutered, SUM(escape_attempts) AS total_escape_attempts FROM animals GROU
 
 SELECT species, MIN(weight_kg), MAX(weight_kg) FROM animals GROUP BY species ;
 
-SELECT species, AVG(escape_attempts) FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31' GROUP BY species;
+SELECT species, AVG(escape_attempts) FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31' GROUP BY species ;
