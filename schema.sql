@@ -50,16 +50,16 @@ age INT NOT NULL,
 date_of_graduation date );
 
 -- Specialization Table Creation
-CREATE TABLE specialization (
-species_id INT REFERENCES species(species_id),
-vet_id INT REFERENCES vets(id),
+CREATE TABLE specializations (
+species_id int,
+vet_id int,
 PRIMARY KEY (species_id, vet_id)
 );
 
 -- Visits Table Creation.
 
 CREATE TABLE visits (
-animal_id INT REFERENCES animals(id),
-vet_id INT REFERENCES vets(id),
-visit_date DATE NOT NULL,
+animal_id int,
+vet_id int,
+visit_date date,
 PRIMARY KEY(animal_id, visit_date));
