@@ -63,4 +63,3 @@ animal_id INT REFERENCES animals(id),
 vet_id INT REFERENCES vets(id),
 visit_date DATE NOT NULL,
 PRIMARY KEY(animal_id, visit_date));
-
