@@ -10,28 +10,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 
 <!-- TABLE OF CONTENTS -->
 
@@ -46,8 +24,6 @@ After you're finished please remove all the comments and instructions!
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -69,16 +45,11 @@ After you're finished please remove all the comments and instructions!
 
 <details>
   <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
 </details>
 
 <details>
   <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
+
 </details>
 
 <details>
@@ -103,8 +74,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- N/A.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,75 +89,49 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
+command: sudo -u -i prostiges
 
-```sh
- gem install rails
-```
- -->
+command: psql vet_clinic ;
+### Setup
+
+Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
 
 ### Setup
 
-Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+### Setup
 
 ### Install
 
+Install this project with: command: npm install
+
+### Usage
+
+To run the project, execute the following command: npm start
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: npm run test.
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: GITHUB Pages.
+### Deployment
 
-<!--
-Example:
+Clone this repository to your desired folder: commands: git clone https://github.com/Itswali/vet-clinic.git
 
-```sh
 
-```
- -->
+### Install
+
+Install this project with: command: npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -236,6 +180,7 @@ If you like this project give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I Would like to Thanks Microverse for providing the Project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,7 +188,6 @@ If you like this project give it a star ⭐️
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
@@ -259,7 +203,7 @@ If you like this project give it a star ⭐️
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
