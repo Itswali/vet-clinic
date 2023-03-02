@@ -17,6 +17,7 @@ INSERT INTO animals VALUES (6,' Blossom', '1998-10-13', 4, true, 17);
 INSERT INTO animals VALUES (7,' Ditto', '2022-05-14', 4, true, 22);
 
 
+
 -- FOR 3 Part 
 
 -- FOR owner Table
