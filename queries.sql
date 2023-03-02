@@ -86,6 +86,6 @@ SELECT id, name, owner_id, species_name FROM animals INNER JOIN species ON anima
 
 -- List all animals owned by Dean Winchester that haven't tried to escape.
 
-SELECT id, name,full_name, escape_attempts FROM animals INNER JOIN owners ON animals.owner_id = owners.owned_id WHERE full_name='Dean Winchester' AND animals.escape_attempts=0;
+SELECT id, name,full_name, escape_attempts FROM animals INNER JOIN owners ON animals.owner_id = owners.owner_id WHERE full_name='Dean Winchester' AND animals.escape_attempts=0;
 
 SELECT owners.full_name, COUNT(animals.id) AS num_animals FROM owners INNER JOIN animals ON owners.owner_id = animals.owner_id GROUP BY owners.full_name ORDER BY num_animals DESC LIMIT 1;
