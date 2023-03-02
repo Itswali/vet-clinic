@@ -45,9 +45,9 @@ ALTER TABLE animals ADD FOREIGN KEY (owner_id) REFERENCES owner(owner_id);
 
 -- VETS Table Creation
 CREATE TABLE vets (id SERIAL PRIMARY KEY,
-name VARCHAR(50) NOT NULL,
+name varchar,
 age INT NOT NULL,
-date_of_registration date NOT NULL);
+date_of_graduation date );
 
 -- Specialization Table Creation
 CREATE TABLE specialization (
